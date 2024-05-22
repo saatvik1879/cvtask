@@ -94,3 +94,14 @@ I had a few problems while deploying because I didn't pass my images before the 
 ![Alt text](/img2.jpg?raw=true "Optional Title")
 ![Alt text](/img3.jpg?raw=true "Optional Title")
 ![Alt text](/img4.jpg?raw=true "Optional Title")
+## Running the .ipynp file(I have deployed my model so that this won't be necessary but if you want to run the ipynb file these are the instructions
+please only run only attempt2 file. Since I included attempt1 to show the obstacles in my task.
+to run the file on colab
+1. download my model from hugging face spaces the model is in the file `gender_prediction_model.h5`
+2. upload this file onto colab with the same name
+3. first run the first two code cells
+4. then run the cell below the markdown cell `loading my model`
+5. then run the last second cell
+6. then in the last cell put the path to your image
+7. then run the final cell to get the output
+
