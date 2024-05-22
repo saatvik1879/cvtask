@@ -1,6 +1,6 @@
 # CV task
 ### the final model is deployed at https://huggingface.co/spaces/saatvik1879/CVtask do check it out 😁
-### lucid map of model workings - https://lucid.app/lucidchart/9055093a-1186-4031-be61-4183f02982d5/edit?viewport_loc=85%2C-39%2C1579%2C1016%2C0_0&invitationId=inv_9ab7f7d6-54c1-452c-b8ae-0f5a955f69ff
+### lucidchart of model workings - https://lucid.app/lucidchart/9055093a-1186-4031-be61-4183f02982d5/edit?viewport_loc=85%2C-39%2C1579%2C1016%2C0_0&invitationId=inv_9ab7f7d6-54c1-452c-b8ae-0f5a955f69ff
 ## Acquiring the datasets
 My first thought was to train a model locally for this task. but, I couldn't get Pytorch running locally. Then I thought of running it on colab but the number of images in the file is too large and It will take quite a lot of time to train my model. So, I finally concluded using openCV and Kaggle. Then that didn't work so I had to train a CV model on my Macbook without GPU 
 
