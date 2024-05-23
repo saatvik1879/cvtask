@@ -61,7 +61,7 @@ first I couldn't get the main library dlib to run
 so I tried openCV's alternatives but that didn't work out either as I couldn't load the required models from opencv too so I skipped the part where dlib was required and just used some simple opencv algorithms but due to that the accuracy (=0.56)of the model suffered quite a bit. so now we're back to the drawing board and now comes attempt 2.
 ### Attempt 2: using transfer learning(successful one)
 the working mechanism is the final model is that first it takes the image finds faces in the images and passes the found images to the model and the model then applies convolutions on the image to finally pass it through a sigmoid to determine the gender
-TH model has been deployed on https://huggingface.co/spaces/saatvik1879/CVtask(Please DM me if the space is private I will turn it into public if I forget)
+TH model has been deployed on https://huggingface.co/spaces/saatvik1879/CVtask (Please DM me if the space is private I will turn it into public if I forget)
 #### importing the necessary libraries
 import libraries like opencv, os, tf, numpy, etc. the VGG model and dense, pooling layers 
 #### preprocessing function
